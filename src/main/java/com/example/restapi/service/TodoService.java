@@ -7,7 +7,7 @@ import com.example.restapi.dto.response.TodoResponse;
 import java.util.List;
 
 public interface TodoService {
-    TodoResponse create (TodoCreateRequest todoCreateRequest);
+    TodoResponse create (TodoCreateRequest todoCreateRequest, String username);
 
     List<TodoResponse> findAll();
 
